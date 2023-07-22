@@ -56,6 +56,8 @@
   top: 12%;
   left: 22%;
   z-index: 1;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 .bikinibottom {
@@ -66,6 +68,8 @@
   top: 12%;
   left: 22%;
   z-index: 1;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 .model {
@@ -86,6 +90,8 @@
   right: -3.5%;
   transform: scale(0.5);
   z-index: 4;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 .necklace {
@@ -96,16 +102,20 @@
   right: -3.5%;
   transform: scale(0.5);
   z-index: 4;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 .hairstyle {
-  width: 1000px;
+  width: 1150px;
   height: 1000px;
   position: absolute;
-  top: -75%;
-  right: -57%;
+  top: -69%;
+  right: -75%;
   transform: scale(0.15);
   z-index: 4;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 .feet {
@@ -117,6 +127,8 @@
   right: -3.5%;
   transform: scale(0.5);
   z-index: 1;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 .background {
@@ -130,6 +142,8 @@
   right: -50%;
   transform: scale(0.5);
   z-index: -1;
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 /* END MODEL */
@@ -157,4 +171,30 @@ hr {
 .card {
   border: none;
   padding-top: 30px;
+}
+
+.tab-content{
+  position: relative;
+}
+
+.tab-content #topclothes,.tab-content #botclothes,.tab-content #shoes,.tab-content #handbags,.tab-content #necklaces,.tab-content #hairstyle,.tab-content #background{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tab-content  .card{
+  width: 200px;
+  height: 300px;
+  
+}
+.tab-content  .card .card-body{
+  text-align: center;
+}
+.tab-content .card h5{
+  font-size: 15px;
 }

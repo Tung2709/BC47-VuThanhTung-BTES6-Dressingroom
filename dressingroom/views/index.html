@@ -17,7 +17,10 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./../assets/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
   <body>
     <div class="container-fluid">
@@ -40,11 +43,14 @@
       </div>
       <div class="row">
         <div class="col-md-8">
-          <ul class="nav nav-pills"></ul>
+          <ul class="nav nav-pills flex-nowrap">
+          </ul>
 
           <div class="well">
             <!-- Tab panes -->
-            <div class="tab-content"></div>
+            <div class="tab-content">
+
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -75,10 +81,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-
-    <script src="./../models/ListChosen.js"></script>
-    <script src="./../models/ChoseItem.js"></script>
-    <script src="./../utils/callData.js"></script>
-    <script src="./../controllers/main.js"></script>
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- JS -->
+    <script src="../models/ListChosen.js"></script>
+    <script src="../models/ChoseItem.js"></script>
+    <script src="../utils/callData.js"></script>
+    <script src="../controllers/main.js"></script>
   </body>
 </html>
